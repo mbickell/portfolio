@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import TitleCard from "../../Components/TitleCard/TitleCard";
+import ContactInfo from "../../Containers/ContactInfo/ContactInfo";
 import styles from "./App.module.scss";
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <>
         <TitleCard />
+        <ContactInfo />
       </>
     );
   }
