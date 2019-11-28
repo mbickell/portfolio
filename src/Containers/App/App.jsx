@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TitleCard from "../../Components/TitleCard/TitleCard";
 import styles from "./App.module.scss";
 
 class App extends Component {
@@ -6,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <h1>Test</h1>
+        <TitleCard />
       </>
     );
   }
