@@ -12,12 +12,12 @@ class Contactinfo extends Component {
     return (
       <section className={styles.contactContainer}>
         <Info
-          faIcon={<FontAwesomeIcon icon={faGithub} />}
-          link={"https://github.com/mbickell"}
-        />
-        <Info
           faIcon={<FontAwesomeIcon icon={faLinkedin} />}
           link={"https://www.linkedin.com/in/matthew-bickell-54742b180/"}
+        />
+        <Info
+          faIcon={<FontAwesomeIcon icon={faGithub} />}
+          link={"https://github.com/mbickell"}
         />
         <Info
           faIcon={<FontAwesomeIcon icon={faEnvelopeSquare} />}

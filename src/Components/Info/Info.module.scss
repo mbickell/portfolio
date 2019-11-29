@@ -1,18 +1,19 @@
 .linkContainer {
-  min-width: 5vw;
+  min-width: 5vh;
+  min-height: 5vh;
   display: inline-block;
-  border: 1vw double #401201;
+  border: 1vh double #262521;
   border-radius: 10px;
 
-  background-color: #591902;
+  background-color: #594431;
   .link {
-    font-size: 5vw;
-    color: #d9b5ad;
+    font-size: 5vh;
+    color: whitesmoke;
     margin: 1vw;
   }
 }
 
 .linkContainer:hover {
-  border: 1vw double #d9b5ad;
+  border: 1vh double whitesmoke;
   border-radius: 10px;
 }
