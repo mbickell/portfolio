@@ -1,0 +1,23 @@
+.card {
+  background-color: #bfac95;
+  width: 80%;
+  margin: 1vh auto;
+
+  > * {
+    border-bottom: 1vh double #594431;
+    border-top: 1vh double #594431;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h2,
+  p {
+    padding: 2vh;
+  }
+
+  img {
+    width: 100%;
+  }
+}
