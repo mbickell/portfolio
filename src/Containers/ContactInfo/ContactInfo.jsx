@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Info from "../../Components/Info/Info";
 import styles from "./ContactInfo.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 
 class Contactinfo extends Component {
@@ -16,7 +15,7 @@ class Contactinfo extends Component {
           link={"https://www.linkedin.com/in/matthew-bickell-54742b180/"}
         />
         <Info
-          faIcon={<FontAwesomeIcon icon={faGithub} />}
+          faIcon={<FontAwesomeIcon icon={faGithubSquare} />}
           link={"https://github.com/mbickell"}
         />
         <Info
