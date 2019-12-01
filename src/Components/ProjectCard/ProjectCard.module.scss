@@ -1,11 +1,15 @@
 .card {
   background-color: #bfac95;
-  width: 80%;
+  width: 30%;
   margin: 1vh auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1vh double #594431;
+  border: 1vh double #594431;
 
-  > * {
+  > h2,
+  a {
     border-bottom: 1vh double #594431;
-    border-top: 1vh double #594431;
   }
 
   h2 {
@@ -17,7 +21,12 @@
     padding: 2vh;
   }
 
+  p {
+    margin: auto;
+  }
+
   img {
     width: 100%;
+    height: 100%;
   }
 }

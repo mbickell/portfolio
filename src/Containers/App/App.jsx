@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TitleCard from "../../Components/TitleCard/TitleCard";
-import ContactInfo from "../../Containers/ContactInfo/ContactInfo";
+import ContactInfo from "../ContactInfo/ContactInfo";
+import ProjectCards from "../ProjectCards/ProjectCards";
 import styles from "./App.module.scss";
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <>
         <TitleCard />
         <ContactInfo />
+        <ProjectCards />
       </>
     );
   }
