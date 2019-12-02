@@ -1,7 +1,8 @@
 .contactContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
-  background-color: #262521;
-  padding: 2vw;
+  background-color: rgba(13, 8, 6, 0.9);
+  padding: 1vw;
+  border-top: 1vh double #594431;
 }

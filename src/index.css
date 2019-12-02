@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Fondamento&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +8,8 @@
 }
 
 body {
-  background-color: #262521;
+  background-image: url("https://studybreaks.com/wp-content/uploads/2018/08/43d92d5a-3c88-49a5-a083-45f433fcc776-st_101-102_unit_0465r2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

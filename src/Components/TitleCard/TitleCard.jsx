@@ -8,6 +8,8 @@ class TitleCard extends Component {
       <div className={styles.titleCard}>
         <section className={styles.intro}>
           <h1>Matthew Bickell</h1>
+          <h3>Junior Software Developer</h3>
+          <h3>_nologist</h3>
           <h2>Welcome to my portfolio</h2>
         </section>
       </div>

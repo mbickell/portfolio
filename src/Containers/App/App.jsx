@@ -9,9 +9,17 @@ class App extends Component {
   render() {
     return (
       <>
-        <TitleCard />
-        <ContactInfo />
-        <ProjectCards />
+        <header className={styles.header}>
+          <TitleCard />
+        </header>
+        <div>
+          <main className={styles.main}>
+            <ProjectCards />
+          </main>
+          <footer className={styles.footer}>
+            <ContactInfo />
+          </footer>
+        </div>
       </>
     );
   }
