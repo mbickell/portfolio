@@ -41,16 +41,20 @@
   }
 
   p {
-    margin: auto;
+    margin-bottom: auto;
+    text-align: justify;
   }
 
   img {
     width: 100%;
-    height: 100%;
+    height: 200px;
   }
 
   .techStack {
     text-decoration: underline;
+    text-align: center;
+    margin: 0;
+    height: 70px;
   }
 }
 
